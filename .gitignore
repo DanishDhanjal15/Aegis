@@ -17,6 +17,8 @@ frontend/.env
 
 # Database
 backend/aegis.db
+aegis.db
+*.db
 
 # IDE
 .vscode/
