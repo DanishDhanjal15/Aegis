@@ -19,13 +19,10 @@ import {
 } from "lucide-react";
 import Chatbot from "./components/Chatbot";
 import Login from "./components/Login";
-import FirebaseEmailTest from "./components/FirebaseEmailTest";
 import { auth } from "./firebase";
 import { onAuthStateChanged, signOut } from "firebase/auth";
 
 function App() {
-  // Toggle this to show/hide diagnostic tool
-  const [showEmailTest, setShowEmailTest] = React.useState(false);
   const [user, setUser] = useState(localStorage.getItem("aegis_user"));
   const [devices, setDevices] = useState([]);
   const [logs, setLogs] = useState([]);
@@ -321,18 +318,6 @@ function App() {
               {autoScanEnabled ? `Auto (${autoScanInterval}m)` : "Auto-Scan"}
             </button>
 
-            {/* EMAIL TEST TOOL TOGGLE */}
-            <button
-              onClick={() => setShowEmailTest(!showEmailTest)}
-              className={`flex items-center gap-2 px-3 py-2 text-xs font-medium rounded-lg border transition-all duration-200
-                  ${showEmailTest
-                  ? "bg-blue-50 text-blue-700 border-blue-200 dark:bg-blue-900/20 dark:text-blue-400 dark:border-blue-800"
-                  : "bg-white text-slate-600 border-gray-200 dark:bg-zinc-900 dark:text-zinc-400 dark:border-zinc-700"}`}
-              title="Test Firebase Email"
-            >
-              🔧 Test Email
-            </button>
-
             <button
               onClick={handlePanic}
               disabled={panicProcessing}
@@ -554,7 +539,6 @@ function App() {
           </div>
         </div>
       )}
-      {showEmailTest && <FirebaseEmailTest />}
       <Chatbot />
     </div>
   );
