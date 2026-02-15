@@ -15,7 +15,7 @@
 - **Real-time Device Scanning**: Discover all devices connected to your network
 - **Automated Periodic Scans**: Configurable auto-scan intervals (1-60 minutes)
 - **Device Fingerprinting**: Identify device types, OS, manufacturer, and open ports
-- **Network Topology Mapping**: Visualize your network infrastructure
+- **Network Topology Mapping**:Visualize your network infrastructure
 
 ### 🤖 **AI-Powered Detection**
 - **Machine Learning Classification**: Intelligent device type detection using Random Forest algorithms
