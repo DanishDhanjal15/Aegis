@@ -1,4 +1,4 @@
-# 🛡️Aegis - IoT Security Guardian
+# 🛡️ Aegis - IoT Security Guardian
 
 **Aegis** is an advanced IoT network security platform that combines AI-powered device detection, real-time threat monitoring, and intelligent network protection. Built with modern web technologies, Aegis provides comprehensive visibility and control over your network infrastructure.
 
