@@ -2,6 +2,7 @@
 
 **Aegis** is an advanced IoT network security platform that combines AI-powered device detection, real-time threat monitoring, and intelligent network protection. Built with modern web technologies, Aegis provides comprehensive visibility and control over your network infrastructure.
 
+
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![React](https://img.shields.io/badge/react-18.2.0-blue)
